@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8" />
-	<title>Homework 4, CSC 305 Database Design, Spring 2021</title>
+	<title>Homework 5, CSC 305 Database Design, Fall 2022</title>
 	<style>
 		/* Indicate required elements */
 		.flag { color: firebrick; }
@@ -36,9 +36,9 @@
 </head>
 
 <body>
-	<h1>Homework 4</h1>
+	<h1>Homework 5</h1>
 
-	<form action="/" method="get" id="getform">
+	<form action="/" method="post" id="postform">
 		<fieldset>
 			<div class="inigo">&ldquo;Hello! My name is
 				<input name="nameblank" id="nameblank" required />.<span class="flag"></span> You killed my
@@ -48,31 +48,31 @@
 					is:</label>
 				<input name="email" id="email" type="email" required /><span class="flag"></span></div>
 			<div class="graduation"><label>I expect to graduate in:</label>
-				<input type="radio" name="grad-year" value="2020" id="grad-2020" required />
-				<label for="grad-2020">2020</label></span>
-				<input type="radio" name="grad-year" value="2021" id="grad-2021" required />
-				<label for="grad-2021">2021</label>
-				<input type="radio" name="grad-year" value="2022" id="grad-2022" required />
-				<label for="grad-2022">2022</label>
 				<input type="radio" name="grad-year" value="2023" id="grad-2023" required />
 				<label for="grad-2023">2023</label>
+				<input type="radio" name="grad-year" value="2024" id="grad-2024" required />
+				<label for="grad-2024">2024</label></span>
+				<input type="radio" name="grad-year" value="2025" id="grad-2025" required />
+				<label for="grad-2025">2025</label>
+				<input type="radio" name="grad-year" value="2026" id="grad-2026" required />
+				<label for="grad-2026">2026</label>
 				<span class="flag"></span>
 			</div>
 			<div class="colors"><label>I like foods of the following colors (check all
 					that apply):</label><span class="flag"></span>
 				<ul>
-					<li style="background-color: #9DC3D4"><input type="checkbox" name="Aquamarine" value="Aquamarine"
-							id="Aquamarine" />
-						<label for="Aquamarine">Aquamarine</label></li>
-					<li style="background-color: #F88F58"><input type="checkbox" name="Tangerine" value="Tangerine"
-							id="Tangerine" />
-						<label for="Tangerine">Tangerine</label></li>
-					<li style="background-color: #E5D68E"><input type="checkbox" name="Custard" value="Custard"
-							id="Custard" />
-						<label for="Custard">Custard</label></li>
-					<li style="background-color: #964F4C"><input type="checkbox" name="Marsala" value="Marsala"
-							id="Marsala" />
-						<label for="Marsala">Marsala</label></li>
+					<li style="background-color: plum"><input type="checkbox" name="Plum" value="Plum"
+							id="Plum" />
+						<label for="Plum">Plum</label></li>
+					<li style="background-color: tomato"><input type="checkbox" name="Tomato" value="Tomato"
+							id="Tomato" />
+						<label for="Tomato">Tomato</label></li>
+					<li style="background-color: wheat"><input type="checkbox" name="Wheat" value="Wheat"
+							id="Wheat" />
+						<label for="Wheat">Wheat</label></li>
+					<li style="background-color: chocolate"><input type="checkbox" name="Chocolate" value="Chocolate"
+							id="Chocolate" />
+						<label for="Chocolate">Chocolate</label></li>
 				</ul>
 			</div>
 			<input type="reset" value="Reset" /><input type="submit" value="Submit" />
